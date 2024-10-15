@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.airdrop-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.rating
+{
+    font-size: 18px;
+    color: #ffd700;
+}
+
+.rating span {
+    font-family: 'FontAwesome';
+    font-size: 1.2em;
+    color: orange;
+}
+
+p {
+    font-size: 1em;
+    color: #555;
+}

@@ -1,0 +1,91 @@
+/* registration.css */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-image: linear-gradient(to bottom,#f7f7f7,#e5e5e5);
+	background-color: #f7f7f7;
+  }
+  
+  .container h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  
+  form {
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select {
+	width: 90%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="date"]:focus,
+  select:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="submit"] {
+	background-color: #ff9900;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #ff6600;
+  }
+  
+  input[type="submit"]:active {
+	background-color: #ff9900;
+	transform: translateY(2px);
+  }
+  
+  /* Responsive design */
+  
+  @media (max-width: 768px) {
+	form {
+	  width: 100%;
+	  padding: 10px;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	form {
+	  width: 100%;
+	  padding: 5px;
+	}
+  }

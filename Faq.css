@@ -1,0 +1,34 @@
+body {
+    font-family: cursive;
+    background-image: url(assets/images/bg-full.png);
+    font-weight: 400;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .answer {
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .image-container {
+    text-align: center;
+  }

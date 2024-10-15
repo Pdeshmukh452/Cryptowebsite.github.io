@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+  }
+  body{
+    width: auto;
+    background-color: whitesmoke;
+    font-size: larger;
+    background-image: url(assets/images/bitcoin4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 1;
+    
+  }
+  h1{
+    text-align: center;
+    font: weight 600px;
+    color: black;
+  }
+  .image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info-container {
+    flex: 2;
+    padding: 20px;
+  }

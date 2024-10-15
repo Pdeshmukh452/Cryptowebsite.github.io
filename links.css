@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(assets/images/bg\ 3.jpg);
+    background: linear-gradient(to bottom, #f9f9f9, #e5e5e5); /* gradient background */
+    background-size: 100% 100%; /* set the background size to 300px high */
+    background-repeat: no-repeat; /* don't repeat the background */
+  }
+  
+  nav {
+    max-width: 400px; /* limit the width of the nav section */
+    margin: 40px auto; /* center the nav section */
+    padding: 20px;
+    background-color: #fff; /* white background */
+    border: 1px solid #ddd; /* light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333; /* dark gray text */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7; /* blue text */
+    transition: color 0.2s ease; /* smooth transition on hover */
+  }
+  
+  a:hover {
+    color: #23527c; /* darker blue on hover */
+  }
+  
+  i.fa {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #666; /* dark gray icon */
+  }
+  
+  i.fa:hover {
+    color: #337ab7; /* blue icon on hover */
+  }

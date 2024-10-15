@@ -1,0 +1,41 @@
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    /* border: 1px solid black; */
+    color: white;
+  }
+
+  body{
+  background-image: url(assets/images/bg-full.png);
+
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
